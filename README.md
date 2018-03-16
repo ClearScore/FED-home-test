@@ -32,7 +32,7 @@ Send your solution as a link to a public git repository with clear instructions 
 
 ## The AC's
 
- 1. Build a carousel that will contain the first 2 slides.
+ 1. Build a carousel containing 2 slides.
  2. Build the first score indicator slide, and animate in a second panel for long term debt.
  3. Show the given score in the middle and with an arc outside that represents the score out of 700
  4. The arc animates on load with a bouncing effect at the end
