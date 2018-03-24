@@ -16,7 +16,7 @@ server.use(koaStatic('./src/server/assets'));
 
 if (process.env.NODE_ENV === 'development') {
   server.use(koaProxy({
-    host: 'http://localhost:8081', // point to webpack dev server
+    host: 'http://localhost:8080', // point to webpack dev server
     match: /^\/static\//,
   }));
 }
