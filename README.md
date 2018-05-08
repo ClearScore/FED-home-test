@@ -35,8 +35,12 @@ Send your solution as a link to a public git repository with clear instructions 
  1. Build a carousel containing 2 slides.
  2. Build the first score indicator slide, and animate in a second panel for long term debt.
  3. Show the given score in the middle and with an arc outside that represents the score out of 700
- 4. The arc animates on load with a bouncing effect at the end
+ 4. The arc animates on load
  5. The data can be requested from [https://s3.amazonaws.com/cdn.clearscore.com/native/interview_test/creditReportInfo.json](https://s3.amazonaws.com/cdn.clearscore.com/native/interview_test/creditReportInfo.json)
+
+### Stretch goal
+
+ 1. Add a bouncing effect to the end of the animation of the arc
 
 ## What we're looking for
  * A stylish solution with unit test coverage
@@ -44,6 +48,11 @@ Send your solution as a link to a public git repository with clear instructions 
  * Knowledge of ES6 syntax
  * A detailed README
  * A live site we can see if possible 
+
+## Prerequisites
+
+ * Node version >= 9.3.0
+ * Yarn is used as the package manager
 
 ## Getting Started
 
